@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  backendURL: 'https://archive.org/',
+  showToolTips: false,
 };
