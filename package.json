@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href \"https://dev.redlink.io/amsui-solr-demo/\" && npx angular-cli-ghpages --no-silent --dir=dist/amsui-solr-demo"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +24,7 @@
     "@angular/router": "~11.2.7",
     "@larscom/ngx-translate-module-loader": "^2.1.1",
     "@ngx-translate/core": "^13.0.0",
-    "@redlink/amsui": "^0.0.0",
+    "@redlink/amsui": "0.0.2",
     "rxjs": "~6.6.0",
     "sass-mq": "^5.0.1",
     "tslib": "^2.0.0",

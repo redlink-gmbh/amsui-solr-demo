@@ -65,6 +65,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit {
   };
   searchFieldConfig: SearchFieldConfig = {
     value: this.didYouMeanSearchValue,
+    placeholderLabel: 'app.searchField.placeholder',
     asyncSuggestionDataProvider: this.handleInputEvent.bind(this),
   };
   isMobile = false;

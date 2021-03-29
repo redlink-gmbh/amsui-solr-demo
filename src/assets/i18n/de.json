@@ -1,5 +1,6 @@
 {
   "app.closeFilterMenu": "Filtermenü schließen",
   "app.openFilterMenu": "Filtermenü öffnen",
-  "app.filterName.all": "Alles"
+  "app.filterName.all": "Alles",
+  "app.searchField.placeholder": "Durchsuche Bücher, Filme, Software, Musik, Websites, usw."
 }
